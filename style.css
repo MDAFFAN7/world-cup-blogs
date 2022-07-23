@@ -19,11 +19,17 @@ header{
     margin-left: 50px;
     padding-top: 45px;
 }
+.heading h1{
+    margin: 0%;
+}
 .football-info{
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 400;
     margin-left: 50px;
+}
+.football-info p span{
+    display: none;
 }
 .live{
     background-color: #dd0000;
@@ -251,4 +257,76 @@ hr{
 .github a{
     color: black;
     padding-left: 90px;
+}
+/* mobile */
+@media only screen and (max-width:767px){
+    
+    header{
+        margin: 0%;
+        height: 910px;
+        width: 400px;
+        margin-left: 5px;
+        border-radius: 10px;
+        display: block;
+    }
+    .heading{
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 700;
+        margin: 0%;
+    }
+    .ho{
+        padding-left: 100px;
+    }
+    .ht{
+        padding-left: 110px;
+    }
+    .hth{
+        padding-left: 150px;
+    }
+    .football-info p span{
+        display: block;
+    }
+    .live{
+        background-color: #dd0000;
+        height: 60px;
+        width: 150px;
+        margin-left: 115px;
+        border-radius: 5px;
+    }
+    .ronaldo img{
+        height: 393px;
+        width: 400px;
+        position: absolute;
+        margin: 0%;
+        margin-top: 60px;
+    }
+    nav{
+        background-color: #FFFFFF;
+        margin-left: 70px;
+    }
+    .link-1 a{
+        border: #B9B9B9 1px solid;
+    }
+    .link-2 a{
+        border: #B9B9B9 1px solid;
+        margin-left: 50px;
+        padding-left: 15px;
+        padding-right: 20px;
+    }
+    .link-3 a{
+        margin-left: 55px;
+        padding-left: 35px;
+        padding-right: 40px;
+    }
+    .all-box{
+        display: block;
+    }
+    article{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    
 }
