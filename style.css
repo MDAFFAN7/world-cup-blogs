@@ -112,7 +112,7 @@ section{
     grid-template-columns: repeat(3, 300px);
 }
 .box{
-    border: 1px solid ;
+    border: 1px solid #b9b9b9;
     width: 262px;
     height: 312px;
     border-radius: 10px;
