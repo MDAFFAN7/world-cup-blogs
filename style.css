@@ -406,3 +406,69 @@ hr{
         position: absolute;
     }
 }
+@media only screen and 
+    (min-width: 768px) and
+    (max-width: 1024px){
+    body{
+        margin: 0%;
+    }
+    header{
+        width: 1000px;
+        margin-left: 90px;
+    }
+    nav{
+        background-color: #FFFFFF;
+    }
+    .links{
+        display: flex;
+    }
+    .link-1 a{
+        margin-top: -80px;
+        margin-left: 80px;
+        border: 1px #e8e8e8 solid;
+    }
+    .link-2 a{
+        margin-left: 385px;
+        margin-top: -80px; 
+        border: 1px #e8e8e8 solid; 
+    }
+    .link-3 a{
+        margin-left: 685px;
+        margin-top: -80px; 
+        border: 1px #e8e8e8 solid; 
+    }
+    section{
+        display: block;
+        height: 100px;
+    }
+    article{
+        display: block;
+    }
+    .box{
+        width: 490px;
+        height: 412px;
+    }
+    .one{
+        margin-left: 90px;
+        margin-top: -200px;
+    }
+    .two{
+        margin-left: 300px;
+        margin-top: -200px;
+    }
+    .three{
+        margin-left: -510px;
+        margin-top: 250px;
+    }
+    .four{
+        margin-left: 90px;
+        margin-top: 30px;
+    }
+    .five{
+        margin-left: -210px;
+        margin-top: 480px;
+    }
+    footer{
+        margin-top: 1800px;
+    }
+}
